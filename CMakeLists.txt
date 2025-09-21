@@ -3,4 +3,6 @@ project(store)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(store main.cpp)
+add_executable(store main.cpp
+        src/com/dastan/store/entity/User.cpp
+        src/com/dastan/store/entity/User.h)
