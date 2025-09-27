@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 26)
 
 add_executable(store main.cpp
         src/com/dastan/store/entity/User.cpp
-        src/com/dastan/store/entity/User.h)
+        src/com/dastan/store/entity/User.h
+        src/com/dastan/store/entity/Product.cpp
+        src/com/dastan/store/entity/Product.h)

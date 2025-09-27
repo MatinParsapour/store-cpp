@@ -15,11 +15,11 @@ namespace User {
         User(const string& firstName, const string& lastName, const string& username, const string& password);
         ~User()= default;
 
-        const boost::uuids::uuid& get_m_id() const;
-        const string& get_m_first_name() const;
-        const string& get_m_last_name() const;
-        const string& get_m_username() const;
-        const string& get_m_password() const;
+        [[nodiscard]] const boost::uuids::uuid& get_m_id() const;
+        [[nodiscard]] const string& get_m_first_name() const;
+        [[nodiscard]] const string& get_m_last_name() const;
+        [[nodiscard]] const string& get_m_username() const;
+        [[nodiscard]] const string& get_m_password() const;
 
         void set_m_first_name(const string& firstName);
         void set_m_last_name(const string& lastName);
