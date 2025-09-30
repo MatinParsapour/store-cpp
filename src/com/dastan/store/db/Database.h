@@ -18,12 +18,13 @@ namespace Schema {
         const map<boost::uuids::uuid, Product::Product>& get_products();
         const std::pmr::vector<Relationship::UserProduct>& get_users_products();
 
+    protected:
+        Database();
+
     private:
         map<boost::uuids::uuid, User::User> users;
         map<boost::uuids::uuid, Product::Product> products;
         std::pmr::vector<Relationship::UserProduct> users_products;
-
-        Database();
     };
 } // Schema
 
