@@ -11,4 +11,6 @@ add_executable(store main.cpp
         src/com/dastan/store/db/Database.cpp
         src/com/dastan/store/db/Database.h
         src/com/dastan/store/db/UserProduct.cpp
-        src/com/dastan/store/db/UserProduct.h)
+        src/com/dastan/store/db/UserProduct.h
+        src/com/dastan/store/db/Connection.cpp
+        src/com/dastan/store/db/Connection.h)
